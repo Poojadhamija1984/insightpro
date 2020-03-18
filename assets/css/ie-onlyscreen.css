@@ -1,0 +1,44 @@
+/********************************************************/
+/**********@@@@***********@@@@***@@@@******@@@@**********/
+/**********@@@@@*********@@@@@***@@@@****@@@@************/
+/**********@@@@@@*******@@@@@@***@@@@**@@@@**************/
+/**********@@@@*@@*****@@*@@@@***@@@@*@@@@***************/
+/**********@@@@***@@*@@***@@@@***@@@@@@@@****************/
+/**********@@@@*****@*****@@@@***@@@@*@@@@***************/
+/**********@@@@***********@@@@***@@@@**@@@@**************/
+/**********@@@@***********@@@@***@@@@****@@@@************/
+/**********@@@@***********@@@@***@@@@******@@@@**********/
+/********************************************************/
+
+@media screen\0 {
+    .body_bg {display:block;line-height: 100vh;text-align: center;}
+    a {color: #8e24aa;}
+    .btn-gradient {
+        background: #8e24aa;
+        background: -webkit-linear-gradient(45deg, #8e24aa, #ff6e40) !important;
+        background: -moz- oldlinear-gradient(45deg, #8e24aa, #ff6e40) !important;
+        background: -o-linear-gradient(45deg, #8e24aa, #ff6e40) !important;
+        background: linear-gradient(45deg, #8e24aa, #ff6e40) !important;
+    }
+    #object_four, #object_two { 
+        border-left-color: #8e24aa;
+        border-right-color: #ff6e40;
+    }
+    #object_three, #object_one {
+        border-left-color: #ff6e40;
+        border-right-color: #8e24aa;
+    }
+    .form-card {
+        text-align: left;
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .form-card .form-title {color: #ff6e40;}
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+}
+@supports (-ms-accelerator:true) {
+    /* IE Edge 12+ CSS styles go here */ 
+}

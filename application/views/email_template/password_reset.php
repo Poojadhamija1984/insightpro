@@ -1,0 +1,1 @@
+<?php echo "Your password reset successfully on " .date('d F Y H:i:s');?>

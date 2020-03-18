@@ -1,0 +1,84 @@
+.progress-bar {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto 10px;
+}
+.progress_cards .progress-bar {
+    width: 150px;
+    height: 150px;
+}
+.progress-bar div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.progress-bar div span {
+    position: absolute;
+    font-family: inherit;
+    font-size: 26px;
+    line-height: 150px;
+    height: 150px;
+    width: 150px;
+    left: 25px;
+    top: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    /*transition: all 150ms linear;*/
+}
+.progress_cards .progress-bar div span {
+    display: flex;
+    display: -ms-flexbox;
+    text-align: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    -ms-flex-align: center;
+    width: calc(100% - 32px);
+    height: calc(100% - 32px);
+    line-height: 1;
+    left: 16px;
+    top: 16px;
+}
+.progress-bar:hover div span {
+    transform: scale(1.2);
+    transition: all 150ms linear;
+}
+
+.progress-bar .background { background-color: #b3cef6; }
+
+.progress-bar .rotate {
+    clip: rect(0 100px 200px 0);
+    background-color: #4b86db;
+}
+.progress_cards .progress-bar .rotate {
+    clip: rect(0 75px 150px 0);
+}
+.progress-bar .left {
+    clip: rect(0 100px 200px 0);
+    opacity: 1;
+    background-color: #b3cef6;
+}
+.progress_cards .progress-bar .left {
+    clip: rect(0 75px 150px 0);
+}
+.progress-bar .right {
+  clip: rect(0 100px 200px 0);
+  transform: rotate(180deg);
+  opacity: 0;
+  background-color: #4b86db;
+}
+.progress_cards .progress-bar .right {
+    clip: rect(0 75px 150px 0);
+}
+ @keyframes 
+toggle {  0% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 1;
+}
+}

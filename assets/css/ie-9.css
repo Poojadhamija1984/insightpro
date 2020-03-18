@@ -1,0 +1,9 @@
+.btn-gradient:hover, .btn-gradient:focus {background-color: #8e24aa;}
+.form-card .input-field .prefix {display: none;}
+.input-field .prefix ~ input, .input-field .prefix ~ textarea, .input-field .prefix ~ label, .input-field .prefix ~ .validate ~ label, .input-field .prefix ~ .helper-text, .input-field .prefix ~ .autocomplete-content, .prefix ~ .select-wrapper {width:100%; margin-left:0;}
+.input-field > label {
+    -webkit-transform: translateY(-20px) scale(0.8);
+    transform: translateY(-20px) scale(0.8);
+}
+select {display:block;background-color: transparent;border:0px solid #9e9e9e;border-bottom-width: 1px;}
+.field_error, .error {padding-left:0px;}
