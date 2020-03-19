@@ -120,12 +120,12 @@ if(empty($posted['hash']) && sizeof($posted) > 0) {
           <td colspan="3"><textarea name="productinfo"><?php echo (empty($posted['productinfo'])) ? '' : $posted['productinfo'] ?></textarea></td>
         </tr>
         <tr>
-          <td>Success URI: </td>
-          <td colspan="3"><input name="surl" value="<?php  echo site_url().'/Sub_payment/success'; ?>" size="64" /></td>
+         
+          <td colspan="3"><input name="surl" type="hidden" value="<?php  echo site_url().'/Sub_payment/success'; ?>" size="64" /></td>
         </tr>
         <tr>
-          <td>Failure URI: </td>
-          <td colspan="3"><input name="furl" value="<?php echo site_url().'/Sub_payment/failure'; ?>" size="64" /></td>
+         
+          <td colspan="3"><input name="furl" type="hidden" value="<?php echo site_url().'/Sub_payment/failure'; ?>" size="64" /></td>
         </tr>
 
         <tr>

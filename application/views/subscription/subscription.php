@@ -183,7 +183,7 @@
                         </div>
                         <div class="package_btns mt-24 center">
                             <button class="back_btn btn waves-effect waves-light" onclick="window.history.back();">Back</button>
-                            <a href="#" id="payment">
+                            <a href="<?php echo site_url().'\Sub_payment';?>" id="payment">
                             <button class="pay_btn btn cyan waves-effect waves-light ml-24"><span>Pay</span> <i class="material-icons right">send</i></button>
                     			
                 			</a>
